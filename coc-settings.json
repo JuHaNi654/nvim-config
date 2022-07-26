@@ -1,0 +1,27 @@
+{
+	"suggest.enablePreselect": true,
+	"suggest.noselect": true,
+	"eslint.autoFixOnSave": true,
+	"tsserver.formatOnType": true,
+	"coc.preferences.formatOnType": true,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"workspace.workspaceFolderCheckCwd": false,
+	"workspace.workspaceFolderFallbackCwd": false,
+	"python.venvPath": "venv",
+	"go.enable": true,
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+			"filetypes": ["go"],
+			"initializationOptions": {
+				"usePlaceholders": true
+			}
+		}	
+	}
+}
